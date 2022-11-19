@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
@@ -14,6 +13,8 @@
 </head>
 
 <body>
+
+
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
@@ -38,6 +39,8 @@
             </div>
         </div>
     </nav>
+
+
     <!-- showcase -->
 
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start ">
@@ -58,46 +61,53 @@
         </div>
     </section>
 
+
+
     <!-- Modal -->
-<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="enrollLabel">Enrollment Form</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="enrollLabel">Enrollment Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <p class="lead">Fill out this form and we will get back to you</p>
-            <form>
-              <div class="mb-3">
-                <label for="first-name" class="col-form-label">
-                  First Name:
-                </label>
-                <input type="text" class="form-control" id="first-name"/>
-              </div>
-              <div class="mb-3">
-                <label for="last-name" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id="last-name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="email"/>
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="col-form-label">Phone:</label>
-                <input type="tel" class="form-control" id="phone"/>
-              </div>
-            </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </div>
     </div>
-  </div>
+
 
     <!-- newsletter -->
+
+
     <section class="bg-primary text-light p-5">
         <div class="container">
             <div class="d-md-flex align-items-center justify-content-between">
@@ -110,7 +120,10 @@
         </div>
     </section>
 
+
+
     <!-- boxes -->
+
 
     <section class="p-5">
         <div class="container">
@@ -157,13 +170,14 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
 
+
+
     <!-- learn the fundamentals -->
+
 
     <section id="learn" class="p-5">
         <div class="container">
@@ -190,7 +204,9 @@
 
     </section>
 
+
     <!-- Learn React -->
+
 
     <section id="learn" class="p-5 bg-dark text-light">
         <div class="container">
@@ -217,7 +233,11 @@
 
     </section>
 
+
+
     <!-- FAQ's using Accordion -->
+
+
 
     <section id="questions" class="p-5">
         <div class="container">
@@ -327,7 +347,9 @@
         </div>
     </section>
 
+
     <!-- Instructors -->
+
 
     <section id="instructors" class="p-5 bg-primary">
         <div class="container">
@@ -417,7 +439,10 @@
         </div>
     </section>
 
+
     <!-- Contact & Map -->
+
+
     <section class="p-5">
         <div class="container">
             <div class="row g-4">
@@ -485,5 +510,4 @@
         </div>
     </footer>
 </body>
-
 </html>
