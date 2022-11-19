@@ -1,2 +1,2 @@
 # Bootcamp_Website
- this website is done using bootstrap.
+ This is a dummy Bootcamp website made using Bootstrap.
